@@ -7,7 +7,6 @@
 }
 
 .fade-enter-active {
-  -webkit-transition: opacity 1s;
   transition: opacity 1s;
 }
 
@@ -20,7 +19,5 @@
 }
 
 .fade-leave-active {
-  -webkit-transition: opacity 1s;
   transition: opacity 1s;
 }
-/*# sourceMappingURL=app.css.map */

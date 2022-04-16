@@ -20,10 +20,8 @@
 }
 
 .carousel__prev:hover {
-  -webkit-transition-duration: .2s;
-          transition-duration: .2s;
-  -webkit-transform: translateX(-10px);
-          transform: translateX(-10px);
+  transition-duration: .2s;
+  transform: translateX(-10px);
 }
 
 .carousel__next {
@@ -35,19 +33,13 @@
 }
 
 .carousel__next:hover {
-  -webkit-transition-duration: .2s;
-          transition-duration: .2s;
-  -webkit-transform: translateX(10px);
-          transform: translateX(10px);
+  transition-duration: .2s;
+  transform: translateX(10px);
 }
 
 .carousel__thumbnails {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  justify-content: center;
   list-style: none;
   padding: 0;
 }
@@ -78,7 +70,6 @@
 }
 
 .active-enter-active {
-  -webkit-transition: opacity .5s;
   transition: opacity .5s;
 }
 
@@ -91,7 +82,5 @@
 }
 
 .active-leave-active {
-  -webkit-transition: opacity .5s;
   transition: opacity .5s;
 }
-/*# sourceMappingURL=app.css.map */
